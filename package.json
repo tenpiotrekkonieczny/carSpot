@@ -1,0 +1,28 @@
+{
+  "name": "carspot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenpiotrekkonieczny/carSpot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenpiotrekkonieczny/carSpot/issues"
+  },
+  "homepage": "https://github.com/tenpiotrekkonieczny/carSpot#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-postcss": "^10.0.0",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  }
+}
