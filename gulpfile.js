@@ -3,7 +3,9 @@ const postcss = require('gulp-postcss');
 const browserSync = require('browser-sync').create();
 
 
-// Kompilacja stylów
+
+
+//Kompilacja stylów
 
 function style() {
     return gulp.src('./src/*.css')
@@ -12,7 +14,7 @@ function style() {
     .pipe(browserSync.stream());
 }
 
-function watch(){
+function watch() {
     browserSync.init({
         server: {
             baseDir: './dist'
@@ -21,7 +23,7 @@ function watch(){
 
     gulp.watch('./src/*.css', style);
     gulp.watch('./tailwind.config.js', style);
-    gulp.watch('./dist/*.html').on('chnge', browserSync.reload);
+    gulp.watch('./dist/*.html').on('change', browserSync.reload);
 
 }
 
