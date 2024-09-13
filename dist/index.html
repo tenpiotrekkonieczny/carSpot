@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
-<body class="bg-gray-100 ">
+<body class="bg-gray-100">
 
     <!-- Header -->
 
@@ -18,25 +19,28 @@
     <div class="coitainer min-h-screen">
 
         <nav class="flex items-center mx-16 py-5">
-            <img src="./assets/logo.png" alt="company logo" class="cursor-pointer">
+            <img src="/assets/logo.png" alt="company logo" class="cursor-pointer">
             <ul class="flex-1 text-center">
                 <li class="list-none inline-block px-5"><a href="#" class="px-2">Galeria zdjęć</a></li>
                 <li class="list-none inline-block px-5"><a href="#" class="px-2">FaQ</a></li>
             </ul>
             <button type="button"
-                    class="m text-white bg-blue-700   hover:bg-white hover:text-blue-700  focus:ring-4  focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 outline hover:outline-blue-700">Zobacz zdjęcia</button>
+                class="m text-white bg-blue-700   hover:bg-white hover:text-blue-700  focus:ring-4  focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 outline hover:outline-blue-700">Zobacz
+                zdjęcia</button>
 
         </nav>
 
         <div class="w-75 mt-48">
-            <h1 class="text-6xl ml-16 uppercase">sprzedajemy samochody<br>Z EUROPY</h1>
+            <h1 class="text-6xl ml-16 uppercase font-bold">sprzedajemy samochody<br>Z EUROPY</h1>
             <h2 class="ml-16 mt-20">Kup konfortowy pojazd, aby każda podróż <br> była wyjątkowym przeżyciem.</h2>
+
 
 
             <div class="mt-20 ml-16">
 
                 <button type="button"
-                    class="m text-white bg-blue-700   hover:bg-white hover:text-blue-700  focus:ring-4  focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 outline hover:outline-blue-700">Zobacz zdjęcia</button>
+                    class="m text-white bg-blue-700   hover:bg-white hover:text-blue-700  focus:ring-4  focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 outline hover:outline-blue-700">Zobacz
+                    zdjęcia</button>
 
                 <button type="button"
                     class=" text-white bg-blue-700 hover:bg-blue-800  focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 hover:bg-white hover:text-blue-700 focus:outline-none dark:focus:ring-blue-800 outline hover:outline-blue-700">Zadzwoń
@@ -45,27 +49,85 @@
             </div>
 
             <div class="w-auto float-right relative">
-                <img src="./assets/Hero.png" alt="three black cars">
+                <img src="/assets/Hero.png" alt="three black cars">
             </div>
         </div>
     </div>
 
     <!-- Header block -->
 
-    <div class="m-96 ml-16">
+    <div class="h-2 m-96 ml-16">
         <h3 class="text-blue-700 text-2xl">Prezentacja firmy</h3>
         <h2 class="uppercase text-3xl">zobacz naszą galerię zdjęć</h2>
 
         <div class="px-0 mt-10">
 
-            <div class="hover:text-blue-700 hover:underline list-none inline-block"><a href="#">Samochody osobowe</a></div>
-            <div class="hover:text-blue-700 hover:underline list-none inline-block px-5"><a href="#">Samochody dostawcze</a></div>
-            
+            <div class="hover:text-blue-700 hover:underline list-none inline-block"><a href="#">Samochody osobowe</a>
+            </div>
+            <div class="hover:text-blue-700 hover:underline list-none inline-block px-5"><a href="#">Samochody
+                    dostawcze</a></div>
+
+        </div>
+    </div>
+
+    <!-- Gallery block -->
+
+    <div class="container w-screen mt-0 swiper">
+        <div class="card-wrapper flex items-center justify-center mx-16 py-5">
+            <ul class="card-list swiper-wrapper select-none">
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-image">
+                        <img src="/assets/Image1.png" alt="red sport car" class="card-image">
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-image">
+                        <img src="/assets/Image2.png" alt="black sport car" class="card-image">
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-image">
+                        <img src="/assets/Image3.png" alt="red sport car" class="card-image">
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-image">
+                        <img src="/assets/Image1.png" alt="red sport car" class="card-image">
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-image">
+                        <img src="/assets/Image2.png" alt="black sport car" class="card-image">
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-image">
+                        <img src="/assets/Image1.png" alt="red sport car" class="card-image">
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="#" class="card-image">
+                        <img src="/assets/Image3.png" alt="red sport car" class="card-image">
+                    </a>
+                </li>
+            </ul>
+
+
+            <div class="mt-20">
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+
         </div>
     </div>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/main.js"></script>
 </body>
 
 </html>
